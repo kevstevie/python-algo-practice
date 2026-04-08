@@ -23,10 +23,7 @@ class MinStack:
         return self.st[-1]
 
     def getMin(self) -> int:
-        if self.min:
-            return self.min[-1]
-        else:
-            return self.st[-1]
+        return self.min[-1]
 
 
 # Your MinStack object will be instantiated and called as such:
