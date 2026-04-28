@@ -20,12 +20,17 @@ pie showData
 
 ### 토픽별 분포 (Top 10)
 
-```mermaid
-xychart-beta
-    title "Top Topics"
-    x-axis ["Array", "String", "Math", "Counting", "Stack", "Depth-First Search", "Union-Find", "Sorting", "Matrix", "Trie"]
-    y-axis "Count" 0 --> 5
-    bar [4, 2, 2, 1, 1, 1, 1, 1, 1, 1]
-```
+| # | 토픽 | 풀이 수 | 분포 |
+| ---: | --- | ---: | :--- |
+| 1 | Array | 4 | ████████████████████████ |
+| 2 | String | 2 | ████████████ |
+| 3 | Math | 2 | ████████████ |
+| 4 | Counting | 1 | ██████ |
+| 5 | Stack | 1 | ██████ |
+| 6 | Depth-First Search | 1 | ██████ |
+| 7 | Union-Find | 1 | ██████ |
+| 8 | Sorting | 1 | ██████ |
+| 9 | Matrix | 1 | ██████ |
+| 10 | Trie | 1 | ██████ |
 
 <!-- LEETCODE-STATS:END -->
