@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-LeetCode 풀이 모음입니다. [leetcode-commit](https://github.com/kevstevie/leetcode-commit) CLI로 자동 관리됩니다.
+LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/leetcode2remote) CLI로 자동 관리됩니다.
 
 <!-- LEETCODE-STATS:START -->
 
