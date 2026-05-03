@@ -6,14 +6,14 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 40문제** · Easy 13 · Medium 25 · Hard 2
+**총 풀이: 41문제** · Easy 14 · Medium 25 · Hard 2
 
 ### 난이도별 분포
 
 ```mermaid
 pie showData
     title Difficulty
-    "Easy"   : 13
+    "Easy"   : 14
     "Medium" : 25
     "Hard"   : 2
 ```
@@ -23,14 +23,14 @@ pie showData
 | # | 토픽 | 풀이 수 | 분포 |
 | ---: | --- | ---: | :--- |
 | 1 | Array | 5 | ████████████████████████ |
-| 2 | Math | 4 | ███████████████████ |
-| 3 | String | 3 | ██████████████ |
+| 2 | String | 4 | ███████████████████ |
+| 3 | Math | 4 | ███████████████████ |
 | 4 | Stack | 2 | ██████████ |
 | 5 | Matrix | 2 | ██████████ |
-| 6 | Counting | 1 | █████ |
-| 7 | Simulation | 1 | █████ |
-| 8 | Depth-First Search | 1 | █████ |
-| 9 | Union-Find | 1 | █████ |
-| 10 | Sorting | 1 | █████ |
+| 6 | String Matching | 1 | █████ |
+| 7 | Counting | 1 | █████ |
+| 8 | Simulation | 1 | █████ |
+| 9 | Depth-First Search | 1 | █████ |
+| 10 | Union-Find | 1 | █████ |
 
 <!-- LEETCODE-STATS:END -->
