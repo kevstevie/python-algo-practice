@@ -6,7 +6,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 42문제** · Easy 14 · Medium 26 · Hard 2
+**총 풀이: 43문제** · Easy 14 · Medium 27 · Hard 2
 
 ### 난이도별 분포
 
@@ -14,7 +14,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 pie showData
     title Difficulty
     "Easy"   : 14
-    "Medium" : 26
+    "Medium" : 27
     "Hard"   : 2
 ```
 
@@ -22,15 +22,15 @@ pie showData
 
 | # | 토픽 | 풀이 수 | 분포 |
 | ---: | --- | ---: | :--- |
-| 1 | Math | 5 | ████████████████████████ |
-| 2 | Array | 5 | ████████████████████████ |
-| 3 | String | 4 | ███████████████████ |
-| 4 | Stack | 2 | ██████████ |
-| 5 | Matrix | 2 | ██████████ |
-| 6 | String Matching | 1 | █████ |
-| 7 | Counting | 1 | █████ |
-| 8 | Simulation | 1 | █████ |
-| 9 | Depth-First Search | 1 | █████ |
-| 10 | Union-Find | 1 | █████ |
+| 1 | Math | 6 | ████████████████████████ |
+| 2 | Array | 6 | ████████████████████████ |
+| 3 | String | 4 | ████████████████ |
+| 4 | Matrix | 3 | ████████████ |
+| 5 | Stack | 2 | ████████ |
+| 6 | String Matching | 1 | ████ |
+| 7 | Counting | 1 | ████ |
+| 8 | Simulation | 1 | ████ |
+| 9 | Depth-First Search | 1 | ████ |
+| 10 | Union-Find | 1 | ████ |
 
 <!-- LEETCODE-STATS:END -->
