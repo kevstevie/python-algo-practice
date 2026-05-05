@@ -2,7 +2,8 @@
 # Difficulty: Medium
 # Language: Python3
 # URL: https://leetcode.com/problems/rotate-list/
-# Submitted: 2026-04-06
+# Submitted: 2026-05-05
+# Tags: Linked List, Two Pointers
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
