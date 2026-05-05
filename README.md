@@ -30,7 +30,7 @@ pie showData
 | 6 | String Matching | 1 | ████ |
 | 7 | Counting | 1 | ████ |
 | 8 | Simulation | 1 | ████ |
-| 9 | Depth-First Search | 1 | ████ |
-| 10 | Union-Find | 1 | ████ |
+| 9 | Linked List | 1 | ████ |
+| 10 | Two Pointers | 1 | ████ |
 
 <!-- LEETCODE-STATS:END -->
