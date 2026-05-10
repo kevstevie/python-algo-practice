@@ -14,4 +14,4 @@ class Solution:
                 if abs(nums[i] - nums[j]) <= target and dp[j] != -1:
                     dp[i] = max(dp[i], dp[j] + 1)
 
-        return dp[-1] if dp[-1] != 0 else -1
+        return dp[-1]
