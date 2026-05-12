@@ -6,7 +6,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 50문제** · Easy 17 · Medium 30 · Hard 3
+**총 풀이: 51문제** · Easy 17 · Medium 30 · Hard 4
 
 ### 난이도별 분포
 
@@ -15,22 +15,22 @@ pie showData
     title Difficulty
     "Easy"   : 17
     "Medium" : 30
-    "Hard"   : 3
+    "Hard"   : 4
 ```
 
 ### 토픽별 분포 (Top 10)
 
 | # | 토픽 | 풀이 수 | 분포 |
 | ---: | --- | ---: | :--- |
-| 1 | Array | 13 | ████████████████████████ |
-| 2 | String | 6 | ███████████ |
-| 3 | Math | 6 | ███████████ |
+| 1 | Array | 14 | ████████████████████████ |
+| 2 | String | 6 | ██████████ |
+| 3 | Math | 6 | ██████████ |
 | 4 | Sorting | 5 | █████████ |
 | 5 | Matrix | 4 | ███████ |
-| 6 | Two Pointers | 3 | ██████ |
-| 7 | Simulation | 2 | ████ |
-| 8 | Stack | 2 | ████ |
-| 9 | Greedy | 2 | ████ |
-| 10 | Dynamic Programming | 2 | ████ |
+| 6 | Two Pointers | 3 | █████ |
+| 7 | Hash Table | 2 | ███ |
+| 8 | Simulation | 2 | ███ |
+| 9 | Stack | 2 | ███ |
+| 10 | Greedy | 2 | ███ |
 
 <!-- LEETCODE-STATS:END -->
