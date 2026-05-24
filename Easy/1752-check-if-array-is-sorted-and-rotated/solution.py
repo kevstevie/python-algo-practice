@@ -7,15 +7,10 @@
 class Solution:
     def check(self, nums: List[int]) -> bool:
         n = len(nums)
+        cnt = 0
 
-        for start in range(n):
-            flag = True
-            for i in range(1, n):
-                idx_prev = (start + i - 1) % n
-                idx_next = (start + i) % n
-                if nums[idx_prev] > nums[idx_next]:
-                    flag = False
-                    break
-            if flag:
-                return True
-        return False
+        for i in range(n):
+            if nums[i] > nums[(i + 1) % n]:
+                cnt += 1
+
+        return cnt <= 1
