@@ -6,11 +6,9 @@
 # Tags: Hash Table, String, Counting
 class Solution:
     def maxNumberOfBalloons(self, text: str) -> int:
-        s = {'b','a','l','o','n'}
-        d = {}
-
-        for c in s:
-            d[c] = 0
+        words = 'balloon'
+        s = {c for c in words}
+        d = {i:0 for i in s}
 
         for c in text:
             if c in s:
