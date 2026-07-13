@@ -6,7 +6,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 87문제** · Easy 37 · Medium 46 · Hard 4
+**총 풀이: 88문제** · Easy 37 · Medium 47 · Hard 4
 
 ### 난이도별 분포
 
@@ -14,7 +14,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 pie showData
     title Difficulty
     "Easy"   : 37
-    "Medium" : 46
+    "Medium" : 47
     "Hard"   : 4
 ```
 
