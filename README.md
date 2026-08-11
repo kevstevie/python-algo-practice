@@ -6,14 +6,14 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 107문제** · Easy 47 · Medium 55 · Hard 5
+**총 풀이: 108문제** · Easy 48 · Medium 55 · Hard 5
 
 ### 난이도별 분포
 
 ```mermaid
 pie showData
     title Difficulty
-    "Easy"   : 47
+    "Easy"   : 48
     "Medium" : 55
     "Hard"   : 5
 ```
@@ -22,15 +22,15 @@ pie showData
 
 | # | 토픽 | 풀이 수 | 분포 |
 | ---: | --- | ---: | :--- |
-| 1 | Array | 48 | ████████████████████████ |
-| 2 | String | 22 | ███████████ |
-| 3 | Sorting | 21 | ███████████ |
+| 1 | Array | 49 | ████████████████████████ |
+| 2 | Sorting | 22 | ███████████ |
+| 3 | String | 22 | ███████████ |
 | 4 | Math | 20 | ██████████ |
-| 5 | Hash Table | 16 | ████████ |
+| 5 | Hash Table | 17 | ████████ |
 | 6 | Two Pointers | 8 | ████ |
-| 7 | Matrix | 7 | ████ |
-| 8 | Simulation | 7 | ████ |
-| 9 | Greedy | 7 | ████ |
-| 10 | Counting | 5 | ███ |
+| 7 | Matrix | 7 | ███ |
+| 8 | Simulation | 7 | ███ |
+| 9 | Greedy | 7 | ███ |
+| 10 | Counting | 5 | ██ |
 
 <!-- LEETCODE-STATS:END -->
