@@ -6,7 +6,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 108문제** · Easy 48 · Medium 55 · Hard 5
+**총 풀이: 109문제** · Easy 48 · Medium 56 · Hard 5
 
 ### 난이도별 분포
 
@@ -14,7 +14,7 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 pie showData
     title Difficulty
     "Easy"   : 48
-    "Medium" : 55
+    "Medium" : 56
     "Hard"   : 5
 ```
 
@@ -22,11 +22,11 @@ pie showData
 
 | # | 토픽 | 풀이 수 | 분포 |
 | ---: | --- | ---: | :--- |
-| 1 | Array | 49 | ████████████████████████ |
+| 1 | Array | 50 | ████████████████████████ |
 | 2 | Sorting | 22 | ███████████ |
 | 3 | String | 22 | ███████████ |
 | 4 | Math | 20 | ██████████ |
-| 5 | Hash Table | 17 | ████████ |
+| 5 | Hash Table | 18 | █████████ |
 | 6 | Two Pointers | 8 | ████ |
 | 7 | Matrix | 7 | ███ |
 | 8 | Simulation | 7 | ███ |
