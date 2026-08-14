@@ -6,14 +6,14 @@ LeetCode 풀이 모음입니다. [leetcode2remote](https://github.com/kevstevie/
 
 ## 📊 풀이 통계
 
-**총 풀이: 110문제** · Easy 49 · Medium 56 · Hard 5
+**총 풀이: 111문제** · Easy 50 · Medium 56 · Hard 5
 
 ### 난이도별 분포
 
 ```mermaid
 pie showData
     title Difficulty
-    "Easy"   : 49
+    "Easy"   : 50
     "Medium" : 56
     "Hard"   : 5
 ```
@@ -23,10 +23,10 @@ pie showData
 | # | 토픽 | 풀이 수 | 분포 |
 | ---: | --- | ---: | :--- |
 | 1 | Array | 51 | ████████████████████████ |
-| 2 | Sorting | 22 | ██████████ |
-| 3 | String | 22 | ██████████ |
+| 2 | String | 23 | ███████████ |
+| 3 | Sorting | 22 | ██████████ |
 | 4 | Math | 20 | █████████ |
-| 5 | Hash Table | 19 | █████████ |
+| 5 | Hash Table | 20 | █████████ |
 | 6 | Two Pointers | 9 | ████ |
 | 7 | Matrix | 7 | ███ |
 | 8 | Simulation | 7 | ███ |
