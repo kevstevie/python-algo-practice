@@ -11,12 +11,12 @@ class Solution:
         r = 0
         cnt = {}
         cnt[s[0]] = 1
+        prev = s[0]
         ans = 1
-        max_freq = [1]
         n = len(s)
         
         while r < n:
-            max_val = max_freq[-1]
+            max_val = cnt[prev]
             if max_val <= k:
                 ans = max(ans, r - l + 1)
                 r += 1
@@ -24,10 +24,8 @@ class Solution:
                     break
                 cnt[s[r]] = cnt.get(s[r], 0) + 1
                 if cnt[s[r]] >= max_val:
-                    max_freq.append(cnt[s[r]])
+                    prev = s[r]
             else:
-                if cnt[s[l]] == max_val:
-                    max_freq.pop()
                 cnt[s[l]] -= 1
                 l += 1
 
