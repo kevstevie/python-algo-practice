@@ -6,20 +6,4 @@
 # Tags: Array, Math
 class Solution:
     def uniformArray(self, nums1: list[int]) -> bool:
-        min_odd = float('inf')
-        cnt = 0
-        n = len(nums1)
-
-        for i in nums1:
-            if i % 2 == 1:
-                min_odd = min(min_odd, i)
-            else:
-                cnt += 1
-        if n == cnt:
-            return True
-
-        for i in nums1:
-            if i % 2 == 0 and i < min_odd:
-                return False
-
-        return True
+        return all(x % 2 == 0 for x in nums1) or min(nums1) % 2 == 1
