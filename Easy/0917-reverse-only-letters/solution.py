@@ -7,13 +7,12 @@
 class Solution:
     def reverseOnlyLetters(self, s: str) -> str:
         st_c = []
-        is_c = []
 
         def is_letter(c):
-            return ord('Z') >= ord(c) >= ord('A') or ord('z') >= ord(c) >= ord('a')
+            return 'Z' >= c >= 'A' or 'z' >= c >= 'a'
+            
         for c in s:
             if is_letter(c):
-                is_c.append(True)
                 st_c.append(c)
         
-        return ''.join([st_c.pop() if is_letter(s[i]) else s[i] for i in range(len(s))])
+        return ''.join(st_c.pop() if is_letter(s[i]) else s[i] for i in range(len(s)))
