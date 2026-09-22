@@ -6,15 +6,14 @@
 # Tags: Array, Hash Table, Counting
 class Solution:
     def countCompleteDayPairs(self, hours: List[int]) -> int:
-        m = {}
+        m = [0] * 24
         ans = 0
 
         for i in hours:
             num = i % 24
             need = (24 - num) % 24
-            if need in m:
-                ans += m[need]
-            m[num] = m.get(num, 0) + 1
+            ans += m[need]
+            m[num] += 1
 
         return ans
 
