@@ -2,12 +2,11 @@
 # Difficulty: Medium
 # Language: Python3
 # URL: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
-# Submitted: 2026-09-27
+# Submitted: 2026-09-29
 # Tags: String, Stack, Bracket Sequences
 class Solution:
     def reverseParentheses(self, s: str) -> str:
-        st = []
-        ans = ""
+        st = [""]
 
         for c in s:
             if c == '(':
@@ -16,17 +15,8 @@ class Solution:
             if c == ')':
                 last = st.pop()
                 rvs = last[::-1]
-                if not st:
-                    ans += rvs
-                else:
-                    st[-1] += rvs
+                st[-1] += rvs
                 continue
-            if not st:
-                ans += c
-            else:
-                st[-1] += c
+            st[-1] += c
 
-        while st:
-            ans += st.pop()[::-1]
-
-        return ans
+        return st[0]
