@@ -9,19 +9,12 @@ class Solution:
         ans = []
         cur = 0
 
-        def add(depth):
-            nonlocal ans
-            if depth % 2 == 1:
-                ans.append(0)
-            else:
-                ans.append(1)
-
         for c in seq:
             if c == '(':
                 cur += 1
-                add(cur)
+                ans.append(cur % 2)
             else:
-                add(cur)
+                ans.append(cur % 2)
                 cur -= 1
 
         return ans
